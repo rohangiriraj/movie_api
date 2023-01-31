@@ -15,9 +15,11 @@ The custom middleware designed, keeps track of the requests that come in with th
 ## Installing and working on the project:
 1. Create an environment for the project, here I'm using Conda
 `conda create -n webdev python=3.10.6`
-2. Install the python dependencies for the project
+2. Activate the environment 
+`conda activate webdev`
+3. Install the python dependencies for the project
 `pip install -r requirements.txt`
-3. Clone the repo
-4. Run the django web server locally
+4. Clone the repo and use the `cd` command to change directories
+5. Run the django web server locally
 `python manage.py runserver`
 
